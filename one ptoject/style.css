@@ -1,0 +1,169 @@
+* {
+  /* записываем начальный стиль для каждого элемента */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header блок */
+
+.header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 53px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px; /* для одинаковых отступов между элементами */
+  list-style-type: none; /* для удаления точек у списка */
+}
+
+.logo-home {
+  display: flex;
+  margin-right: 150px;
+}
+
+.header-button {
+  background-color: #19bce4;
+  color: white;
+  border-radius: 6px; /* радиус рамки,закругленности вашего элемента*/
+  font-size: 16px; /* размер шрифта на сайта*/
+  width: 96px;
+  height: 40px;
+  cursor: pointer; /* изменение мыши при наведении на эдлемент */
+  transition: ease 0.5s; /* для того чтобы плавно изменять элементы */
+  border: solid 1px #19bce4; /* рамка в которой лежат элементы */
+}
+
+.header-button:hover {
+  /* псевдокласс для изменения элементов при наведении мышки */
+  background-color: white;
+  color: #19bce4;
+}
+
+/* main блок */
+
+.title {
+  color: white;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.text-mainblock {
+  color: white;
+  margin-bottom: 97px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.main {
+  background-image: url(./images/Group\ 3461.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+  padding: 185px 130px 0 130px;
+  margin-bottom: 75px;
+}
+
+.section-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 15px 24px 34px;
+  background-color: #ffffff;
+}
+
+.info {
+  padding: 10px 135px 11px 30px;
+  border: solid 2px #19bce4;
+}
+
+.drop-dawn {
+  border: none;
+  margin-bottom: 8px;
+}
+
+.search-btn {
+  background-color: #19bce4;
+  color: white;
+  width: 259px;
+  height: 77px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.search-btn:hover {
+  background-color: white;
+  color: #19bce4;
+}
+
+/* третий блок */
+
+.block-three {
+  display: flex;
+  padding-left: 140px;
+  margin-bottom: 120px;
+}
+
+.text-about {
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+
+.subtitle-block__three {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.text-block-three {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.btn-block_three {
+  background-color: #19bce4;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 32px;
+}
+
+.img-duo {
+  display: flex;
+  position: relative;
+  margin-right: 80px;
+}
+
+.img-two {
+  position: absolute;
+  z-index: 1;
+  bottom: -50px;
+  right: -40px;
+}
+
+/*Начинвем четверты блок*/
+
+.boton-four {
+padding-left: 195px;
+}
+
+.text-about{
+font-size: 48px;
+}
+
+.icon {
+  display: flex;
+  margin-left: 75px;
+}
+
+.img-three {
+  display: flex;
+  
+}
